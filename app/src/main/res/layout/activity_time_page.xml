@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/txtPcaAdı"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="PcAdı"
+            android:textColor="@color/bg_register" />
+
+        <Button
+            android:id="@+id/btn60"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="60 dakika"
+            android:onClick="btn60"
+            android:textColor="@color/bg_register"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/btn120"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="120 Dakika"
+            android:onClick="btn120"
+            android:textColor="@color/bg_register"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/btn180"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="180 Dakika"
+            android:onClick="btn180"
+            android:textColor="@color/bg_register"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnPcClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PcKapat"
+            android:onClick="btnClose"
+            android:textColor="@color/bg_register"
+            android:background="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
